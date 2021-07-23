@@ -1,0 +1,700 @@
+/*_______________________________________________________
+// BASIC STYLE  //----------------------------
+_______________________________________________________*/
+/* Shadows */
+  
+.shadow-1 {
+    text-shadow: 0px 10px 10px #234D3C;
+  }
+  
+.shadow-2 {
+    text-shadow: 2px 1px 0px #234D3C ;
+  }
+/*---------- General Style ------------*/
+
+body, html {
+    color: #fff;
+    background: black;
+}
+
+a, a:focus {
+    color: #fff;
+}
+
+a:hover {
+    color: #46bdf4;
+}
+
+a.active {
+    color: #46bdf4;
+    ;
+}
+
+.btn {
+    border: 1px solid #3381ff;
+    border-color: #3381ff;
+    background-image: linear-gradient(to right, #46bdf4 0%, #0072ff 51%, #46bdf4 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn:before {
+    background: -webkit-radial-gradient( center, ellipse, rgba(39, 3, 106, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient( ellipse at center, rgba(39, 3, 106, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.owl-dot {
+    background: #fff !important;
+}
+
+.owl-dot.active {
+    background: #3381ff !important;
+}
+
+#preloader {
+    background: center no-repeat black;
+    overflow: hidden;
+}
+
+.form-control, .form-control:focus {
+    background: #3381ff;
+    color: #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #10122d;
+}
+
+.form-control::-moz-placeholder {
+    color: #10122d;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #10122d;
+}
+
+.form-control:-moz-placeholder {
+    color: #10122d;
+}
+
+.heading-title-2 span, .sub-heading {
+    color: #3381ff;
+}
+
+.sub-page-banner {
+    background-color: #000000;
+}
+
+.skyblue {
+    background-color: #3381ff;
+}
+
+.black {
+    /* background-color: #10122d; */
+    background: linear-gradient(-45deg, #3381ff, #0000, #10122d);
+    animation: gradient 15s ease infinite;
+    /* background-size: 400% 400%; */
+}
+
+.darkblue {
+    background-color: #3381ff;
+}
+
+.pink {
+    color: #3381ff;
+}
+
+.text-red {
+    color: #3381ff;
+}
+
+.top-scroll {
+    background: #3381ff;
+    color: #fff;
+}
+
+.top-scroll:hover {
+    opacity: 0.6;
+}
+
+.top-scroll a {
+    color: #fff;
+}
+
+/*----- Menu -----*/
+
+.menu ul li a:before {
+    background: #3381ff;
+}
+
+/*header.fixed{background: rgb(58, 7, 152, .95);}*/
+
+header.fixed {
+    /* background: rgba(0, 0, 0, 0.95); */
+    background: linear-gradient(-45deg, #3381ff, #0000, #10122d );
+    animation: gradient 15s ease infinite;
+}
+
+.opener:before, .opener:after {
+    background: #fff;
+}
+
+.menu-toggle span, .menu-toggle span:before, .menu-toggle span:after {
+    background: #fff;
+}
+
+header.fixed .menu-toggle span, header.fixed .menu-toggle span:before, header.fixed .menu-toggle span:after {
+    background: #fff;
+}
+
+.menu-toggle.active span {
+    background: transparent;
+}
+
+/*----- Home Banner -----*/
+
+.home-banner {
+    background-color: #3381ff;
+}
+
+/*----- Work Section -----*/
+
+ul.check-list li span {
+    background: #fff;
+    color: #3381ff;
+}
+
+/*----- Feature Section -----*/
+
+.feature-title:hover {
+    color: #3381ff;
+}
+
+.feature-box:hover path.hover {
+    fill: #3381ff;
+}
+
+/*----- Timeline Section -----*/
+
+.h-border, .v-row {
+    border-color: #3381ff;
+}
+
+.small-round {
+    border-color: #fff;
+}
+
+.v-row:before, .small-round span {
+    background: #3381ff;
+}
+
+/*----- Team Section -----*/
+
+.team-img {
+    border-color: #7d3cf4;
+}
+
+.team-box:hover .team-img {
+    border-color: #3381ff;
+}
+
+/*----- Token Sale Section -----*/
+
+.token-graphic-detail ul li:before {
+    background: #f85d77;
+}
+
+.token-graphic-detail ul li.color-code-2:before {
+    background: #5ad6f8;
+}
+
+.token-graphic-detail ul li.color-code-3:before {
+    background: #f8c04e;
+}
+
+.token-graphic-detail ul li.color-code-4:before {
+    background: #ac56f7;
+}
+
+.token-graphic-detail ul li.color-code-5:before {
+    background: #61f89f;
+}
+
+.donut {
+    color: #3d1f94;
+}
+
+/*----- Blog Section -----*/
+
+.blog-date li:before {
+    background: #fff;
+}
+
+.read-more {
+    color: #3381ff;
+}
+
+.read-more:hover {
+    color: #fff;
+}
+
+.blog-img a:before {
+    background: rgba(73 15 180 0.5);
+}
+
+/*----- FAQ Section -----*/
+
+.Frequently-tabs li a {
+    color: #3381ff;
+}
+
+.Frequently-tabs li a.active {
+    color: #fff;
+}
+
+.Frequently-tabs li a:before {
+    background: #3381ff;
+}
+
+.qus-des {
+    color: #b690fa;
+}
+
+/*----- Home Page Tow -----*/
+
+.banner-heading-tow span {
+    color: #3381ff;
+}
+
+.coin-counter {
+    background: #0a0a0a;
+}
+
+.coin-head {
+    color: #3381ff;
+}
+
+.coins-counter-loop li:before, .coins-counter-loop li:after {
+    background: #fff;
+}
+
+.coins-counter-loop li span {
+    background: #d0458d;
+    color: #fff;
+}
+
+.coins-progress {
+    background: #222;
+}
+
+.coins-progress span {
+    background-color: #3381ff;
+}
+
+/*----- Feature tow -----*/
+
+.feature-box-2 .frontend, .feature-box-2 .backend {
+    background: #343a40;
+}
+
+.feature-des {
+    color: #dadada;
+}
+
+/*----- Roadmap Section -----*/
+
+.roadmap-part .v-row, .roadmap-part .h-border, .roadmap-des {
+    border-color: #3381ff;
+}
+
+.roadmap-part .small-round {
+    background: #000;
+}
+
+/*----- team Tow Section -----*/
+
+.team-box-2 {
+    background: #fff;
+}
+
+.team-member-name a {
+    color: #3381ff;
+}
+
+.team-member-name a:hover {
+    color: #3381ff;
+}
+
+.team-member-img {
+    background-color: #3381ff;
+}
+
+.team-member-img:after {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/*----- Blog Tow Section -----*/
+
+.blog-part-2 .read-more:hover {
+    color: #fff;
+}
+
+/*----- FAQ tow Section -----*/
+
+.faq-part-2 .Frequently-tabs li a, .faq-part-2 .faq-tab, .accordion-faq-title {
+    color: #fff;
+    background: #3381ff;
+}
+
+.faq-part-2 .Frequently-tabs li a.active {
+    background: #3381ff;
+}
+
+.faq-part-2 .qus-des {
+    color: #fff;
+}
+
+.accordion-faq-title.active, .accordion-faq-title:hover {
+    color: #fff;
+}
+
+.accordion-faq-content {
+    background: #f22233;
+}
+
+.accordion-faq-title:before, .accordion-faq-title:after {
+    background: #fff;
+}
+
+/*----- About Page -----*/
+
+.sub-page-banner ul li:before {
+    background: #fff;
+}
+
+.play-icon span {
+    border-color: #f22233;
+    background: #fff;
+    color: #f22233;
+}
+
+.play-icon:hover span {
+    border-color: #fff;
+    background: #f22233;
+    color: #fff;
+}
+
+.work-part button.close {
+    color: #fff;
+}
+
+button.close {
+    color: #fff;
+}
+
+/*----- blog List Page -----*/
+
+.blog-search input {
+    border-color: #f22233;
+    color: #fff;
+}
+
+.blog-search-btn {
+    background: #f22233;
+    color: #fff;
+}
+
+.blog-search input::-webkit-input-placeholder {
+    color: #73121a;
+}
+
+.blog-search input::-moz-placeholder {
+    color: #73121a;
+}
+
+.blog-search input:-ms-input-placeholder {
+    color: #73121a;
+}
+
+.blog-search input:-moz-placeholder {
+    color: #73121a;
+}
+
+.blog-search-btn:hover {
+    background: #f22233;
+}
+
+.blog-category {
+    background: #f22233;
+}
+
+.blog-category ul li:before {
+    background: #f22233;
+}
+
+.trending-news-date {
+    color: #f22233;
+}
+
+.blog-tags ul li a {
+    background: #f22233;
+    color: #f22233;
+}
+
+.blog-tags ul li a:hover {
+    background: #f22233;
+    color: #fff;
+}
+
+.archives ul li {
+    border-color: #f22233;
+}
+
+.blog-list-content ul li:before {
+    background: #fff;
+}
+
+.blog-list-pagination ul li a {
+    background: #f22233;
+}
+
+.blog-list-pagination ul li a:hover, .blog-list-pagination ul li a.active {
+    color: #fff;
+    background: #f22233;
+}
+
+/*----- blog Detail Page -----*/
+
+.blog-detail-content ul li:before {
+    background: #fff;
+}
+
+.blog-detail-content blockquote {
+    background: #f22233;
+    border-color: #f22233;
+}
+
+.blog-detail-tag ul li a, .blog-detail-social ul li a {
+    background: #f22233;
+}
+
+.blog-detail-tag ul li a:hover {
+    background: #f22233;
+    color: #fff;
+}
+
+.blog-detail-social ul li a:hover {
+    background: #f22233;
+    color: #fff;
+}
+
+.blog-detail-tag-social, .blog-comment-post-singel {
+    border-color: #f22233;
+}
+
+.comment-date {
+    color: #bebebe;
+}
+
+.comment-reply {
+    background: #f22233;
+}
+
+.comment-reply:hover {
+    color: #fff;
+    background: #f22233;
+}
+
+/*----- Roadmap Page -----*/
+
+.roadmap-center-line {
+    border-color: #3381ff;
+}
+
+.roadmap-center-line:before, .roadmap-center-line:after {
+    background: #fff;
+}
+
+.roadmap-animated {
+    background: #3381ff;
+}
+
+.roadmap-main-content:before {
+    border-color: #3381ff;
+}
+
+.roadmap-small-round {
+    border-color: #fff;
+    background: #3381ff;
+}
+
+.roadmap-small-round:before {
+    background: #3381ff;
+}
+
+.roadmap-main .roadmap-detail-box {
+    background: #3381ff;
+}
+
+.roadmap-main .roadmap-des {
+    color: #fff;
+    padding: 0;
+}
+
+/*----- Token Sale Page -----*/
+
+.information-token-head {
+    color: #3381ff;
+}
+
+.token-sale-counter {
+    background: #0a0a0a;
+}
+
+.token-sale-counter .coins-counter-loop li span {
+    background: transparent;
+}
+
+.token-sale-counter .coins-counter-loop li .coin-day {
+    color: #3381ff;
+}
+
+.token-sale-counter .coins-progress span {
+    background: rgb(115, 18, 26);
+    background: linear-gradient(90deg, rgba(115, 18, 26, 1) 0%, rgba(242, 34, 51, 1) 100%);
+}
+
+.token-slide-info:before {
+    background: #3381ff;
+}
+
+.token-sale-counter .coins-progress {
+    background: #fff;
+}
+
+.distribution-title {
+    color: #f22233;
+}
+
+/*----- Contact Page -----*/
+
+.contact-detail li i {
+    background: #3381ff;
+}
+
+/*----- Footer Section -----*/
+
+.footer-icon ul li a {
+    background: #3381ff;
+}
+
+.footer-icon ul li a:hover {
+    color: #fff;
+}
+
+.footer-icon ul li a:hover {
+    background: #3381ff;
+}
+
+.footer-link ul li a:hover {
+    color: #3381ff;
+}
+
+.subscribe .form-control {
+    background: #3381ff;
+    color: #fff;
+}
+
+.subscribe .submit {
+    color: #fff;
+    background: #3381ff;
+}
+
+.subscribe .form-control::-webkit-input-placeholder {
+    color: #0d42b2;
+}
+
+.subscribe .form-control::-moz-placeholder {
+    color: #0d42b2;
+}
+
+.subscribe .form-control:-ms-input-placeholder {
+    color: #0d42b2;
+}
+
+.subscribe .form-control:-moz-placeholder {
+    color: #3381ff;
+}
+
+.subscribe .submit:hover {
+    color: #3381ff;
+    background: #3381ff;
+}
+
+.copyright p a {
+    color: #3381ff;
+}
+
+.copyright p a:hover {
+    color: #fff;
+}
+
+.copyright ul li:before {
+    background: #3381ff;
+}
+
+.footer {
+    border-color: #3381ff;
+}
+
+@media (min-width: 992px) {
+    .menu ul li:hover a {
+        color: #3381ff;
+    }
+    .mega-menu:hover:before {
+        color: #3381ff;
+    }
+    .menu ul ul li a {
+        border-color: #0d42b2 !important;
+        color: #fff !important;
+    }
+    .menu ul ul li.mega-menu:before {
+        color: #3381ff;
+    }
+    .menu ul ul li:hover>a {
+        color: #3381ff;
+    }
+    .menu ul ul {
+        background: rgba(0, 0, 0, 0.95);
+    }
+    .menu ul ul li a:before {
+        background: #3381ff;
+    }
+}
+
+@media (max-width: 991px) {
+    .menu {
+        background: black;
+    }
+    .signin .btn {
+        background: transparent;
+    }
+    header.fixed .menu-toggle.active span {
+        background: transparent;
+    }
+}
